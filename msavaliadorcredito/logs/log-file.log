@@ -1,0 +1,165 @@
+2022-11-24 13:02:13.582  INFO 15328 --- [restartedMain] i.g.l.m.MsavaliadorcreditoApplication    : Starting MsavaliadorcreditoApplication using Java 11.0.15 on DESKTOP-0LU874L with PID 15328 (C:\projetos-dev\java\cloud\msavaliadorcredito\target\classes started by gianc in C:\projetos-dev\java\cloud\msavaliadorcredito)
+2022-11-24 13:02:13.584  INFO 15328 --- [restartedMain] i.g.l.m.MsavaliadorcreditoApplication    : No active profile set, falling back to 1 default profile: "default"
+2022-11-24 13:02:13.631  INFO 15328 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-11-24 13:02:13.632  INFO 15328 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-11-24 13:02:14.321  INFO 15328 --- [restartedMain] o.s.cloud.context.scope.GenericScope     : BeanFactory id=acd5d738-c01c-3351-ba1f-4c8f7456f1e1
+2022-11-24 13:02:14.660  INFO 15328 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 0 (http)
+2022-11-24 13:02:14.667  INFO 15328 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-11-24 13:02:14.667  INFO 15328 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.60]
+2022-11-24 13:02:14.734  INFO 15328 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-11-24 13:02:14.734  INFO 15328 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1101 ms
+2022-11-24 13:02:14.843  WARN 15328 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : Unable to start LiveReload server
+2022-11-24 13:02:14.882  INFO 15328 --- [restartedMain] o.s.c.openfeign.FeignClientFactoryBean   : For 'msclientes' URL not provided. Will try picking an instance via load-balancing.
+2022-11-24 13:02:14.932  INFO 15328 --- [restartedMain] o.s.c.openfeign.FeignClientFactoryBean   : For 'mscartoes' URL not provided. Will try picking an instance via load-balancing.
+2022-11-24 13:02:15.518  INFO 15328 --- [restartedMain] DiscoveryClientOptionalArgsConfiguration : Eureka HTTP Client uses RestTemplate.
+2022-11-24 13:02:15.842  WARN 15328 --- [restartedMain] iguration$LoadBalancerCaffeineWarnLogger : Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2022-11-24 13:02:15.922  INFO 15328 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 1068 (http) with context path ''
+2022-11-24 13:02:15.924  INFO 15328 --- [restartedMain] .s.c.n.e.s.EurekaAutoServiceRegistration : Updating port to 1068
+2022-11-24 13:02:15.927  INFO 15328 --- [restartedMain] o.s.c.n.eureka.InstanceInfoFactory       : Setting initial instance status as: STARTING
+2022-11-24 13:02:15.948  INFO 15328 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Initializing Eureka in region us-east-1
+2022-11-24 13:02:15.950  INFO 15328 --- [restartedMain] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2022-11-24 13:02:15.963  INFO 15328 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Disable delta property : false
+2022-11-24 13:02:15.963  INFO 15328 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Single vip registry refresh property : null
+2022-11-24 13:02:15.963  INFO 15328 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Force full registry fetch : false
+2022-11-24 13:02:15.963  INFO 15328 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Application is null : false
+2022-11-24 13:02:15.963  INFO 15328 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Registered Applications size is zero : true
+2022-11-24 13:02:15.963  INFO 15328 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Application version is -1: true
+2022-11-24 13:02:15.963  INFO 15328 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Getting all instance registry info from the eureka server
+2022-11-24 13:02:16.209  INFO 15328 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : The response status is 200
+2022-11-24 13:02:16.211  INFO 15328 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Starting heartbeat executor: renew interval is: 30
+2022-11-24 13:02:16.213  INFO 15328 --- [restartedMain] c.n.discovery.InstanceInfoReplicator     : InstanceInfoReplicator onDemand update allowed rate per min is 4
+2022-11-24 13:02:16.217  INFO 15328 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Discovery Client initialized at timestamp 1669305736217 with initial instances count: 3
+2022-11-24 13:02:16.218  INFO 15328 --- [restartedMain] o.s.c.n.e.s.EurekaServiceRegistry        : Registering application MSAVALIADORCREDITO with eureka with status UP
+2022-11-24 13:02:16.219  INFO 15328 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1669305736219, current=UP, previous=STARTING]
+2022-11-24 13:02:16.221  INFO 15328 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_MSAVALIADORCREDITO/msavaliadorcredito:f461064b7a3f3a7b3524e6f3c69bbd65: registering service...
+2022-11-24 13:02:16.333  INFO 15328 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_MSAVALIADORCREDITO/msavaliadorcredito:f461064b7a3f3a7b3524e6f3c69bbd65 - registration status: 204
+2022-11-24 13:02:16.575  INFO 15328 --- [restartedMain] i.g.l.m.MsavaliadorcreditoApplication    : Started MsavaliadorcreditoApplication in 3.667 seconds (JVM running for 4.536)
+2022-11-24 13:02:32.308  INFO 15328 --- [http-nio-auto-1-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-11-24 13:02:32.308  INFO 15328 --- [http-nio-auto-1-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-11-24 13:02:32.310  INFO 15328 --- [http-nio-auto-1-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2022-11-24 13:03:24.285  INFO 15328 --- [SpringApplicationShutdownHook] o.s.c.n.e.s.EurekaServiceRegistry        : Unregistering application MSAVALIADORCREDITO with eureka with status DOWN
+2022-11-24 13:03:24.285  INFO 15328 --- [SpringApplicationShutdownHook] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1669305804285, current=DOWN, previous=UP]
+2022-11-24 13:03:24.285  INFO 15328 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_MSAVALIADORCREDITO/msavaliadorcredito:f461064b7a3f3a7b3524e6f3c69bbd65: registering service...
+2022-11-24 13:03:24.290  INFO 15328 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_MSAVALIADORCREDITO/msavaliadorcredito:f461064b7a3f3a7b3524e6f3c69bbd65 - registration status: 204
+2022-11-24 13:03:24.525  INFO 15328 --- [SpringApplicationShutdownHook] com.netflix.discovery.DiscoveryClient    : Shutting down DiscoveryClient ...
+2022-11-24 13:03:27.528  INFO 15328 --- [SpringApplicationShutdownHook] com.netflix.discovery.DiscoveryClient    : Unregistering ...
+2022-11-24 13:03:27.533  INFO 15328 --- [SpringApplicationShutdownHook] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_MSAVALIADORCREDITO/msavaliadorcredito:f461064b7a3f3a7b3524e6f3c69bbd65 - deregister  status: 200
+2022-11-24 13:03:27.537  INFO 15328 --- [SpringApplicationShutdownHook] com.netflix.discovery.DiscoveryClient    : Completed shut down of DiscoveryClient
+2022-11-24 13:03:36.054  INFO 4044 --- [restartedMain] i.g.l.m.MsavaliadorcreditoApplication    : Starting MsavaliadorcreditoApplication using Java 11.0.15 on DESKTOP-0LU874L with PID 4044 (C:\projetos-dev\java\cloud\msavaliadorcredito\target\classes started by gianc in C:\projetos-dev\java\cloud\msavaliadorcredito)
+2022-11-24 13:03:36.055  INFO 4044 --- [restartedMain] i.g.l.m.MsavaliadorcreditoApplication    : No active profile set, falling back to 1 default profile: "default"
+2022-11-24 13:03:36.096  INFO 4044 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-11-24 13:03:36.096  INFO 4044 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-11-24 13:03:37.050  INFO 4044 --- [restartedMain] o.s.cloud.context.scope.GenericScope     : BeanFactory id=93972a7a-29bd-3263-baac-a11066658a72
+2022-11-24 13:03:37.464  INFO 4044 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 0 (http)
+2022-11-24 13:03:37.470  INFO 4044 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-11-24 13:03:37.471  INFO 4044 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.60]
+2022-11-24 13:03:37.550  INFO 4044 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-11-24 13:03:37.550  INFO 4044 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1453 ms
+2022-11-24 13:03:37.843  WARN 4044 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : Unable to start LiveReload server
+2022-11-24 13:03:37.882  INFO 4044 --- [restartedMain] o.s.c.openfeign.FeignClientFactoryBean   : For 'msclientes' URL not provided. Will try picking an instance via load-balancing.
+2022-11-24 13:03:37.933  INFO 4044 --- [restartedMain] o.s.c.openfeign.FeignClientFactoryBean   : For 'mscartoes' URL not provided. Will try picking an instance via load-balancing.
+2022-11-24 13:03:39.479  INFO 4044 --- [restartedMain] DiscoveryClientOptionalArgsConfiguration : Eureka HTTP Client uses RestTemplate.
+2022-11-24 13:03:39.550  WARN 4044 --- [restartedMain] iguration$LoadBalancerCaffeineWarnLogger : Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2022-11-24 13:03:39.566  INFO 4044 --- [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 17 endpoint(s) beneath base path '/actuator'
+2022-11-24 13:03:39.744  INFO 4044 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 1146 (http) with context path ''
+2022-11-24 13:03:39.746  INFO 4044 --- [restartedMain] .s.c.n.e.s.EurekaAutoServiceRegistration : Updating port to 1146
+2022-11-24 13:03:39.752  INFO 4044 --- [restartedMain] o.s.c.n.eureka.InstanceInfoFactory       : Setting initial instance status as: STARTING
+2022-11-24 13:03:39.778  INFO 4044 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Initializing Eureka in region us-east-1
+2022-11-24 13:03:39.783  INFO 4044 --- [restartedMain] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2022-11-24 13:03:39.803  INFO 4044 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Disable delta property : false
+2022-11-24 13:03:39.803  INFO 4044 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Single vip registry refresh property : null
+2022-11-24 13:03:39.804  INFO 4044 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Force full registry fetch : false
+2022-11-24 13:03:39.804  INFO 4044 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Application is null : false
+2022-11-24 13:03:39.804  INFO 4044 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Registered Applications size is zero : true
+2022-11-24 13:03:39.804  INFO 4044 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Application version is -1: true
+2022-11-24 13:03:39.805  INFO 4044 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Getting all instance registry info from the eureka server
+2022-11-24 13:03:40.086  INFO 4044 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : The response status is 200
+2022-11-24 13:03:40.088  INFO 4044 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Starting heartbeat executor: renew interval is: 30
+2022-11-24 13:03:40.090  INFO 4044 --- [restartedMain] c.n.discovery.InstanceInfoReplicator     : InstanceInfoReplicator onDemand update allowed rate per min is 4
+2022-11-24 13:03:40.095  INFO 4044 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Discovery Client initialized at timestamp 1669305820094 with initial instances count: 3
+2022-11-24 13:03:40.096  INFO 4044 --- [restartedMain] o.s.c.n.e.s.EurekaServiceRegistry        : Registering application MSAVALIADORCREDITO with eureka with status UP
+2022-11-24 13:03:40.097  INFO 4044 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1669305820097, current=UP, previous=STARTING]
+2022-11-24 13:03:40.099  INFO 4044 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_MSAVALIADORCREDITO/msavaliadorcredito:a24cd8b4509b7f30f7448bfb9fa009e0: registering service...
+2022-11-24 13:03:40.214  INFO 4044 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_MSAVALIADORCREDITO/msavaliadorcredito:a24cd8b4509b7f30f7448bfb9fa009e0 - registration status: 204
+2022-11-24 13:03:40.443  INFO 4044 --- [restartedMain] i.g.l.m.MsavaliadorcreditoApplication    : Started MsavaliadorcreditoApplication in 5.38 seconds (JVM running for 6.829)
+2022-11-24 13:03:41.868  INFO 4044 --- [RMI TCP Connection(8)-192.168.0.7] o.s.a.r.c.CachingConnectionFactory       : Attempting to connect to: [localhost:5672]
+2022-11-24 13:03:41.870  INFO 4044 --- [RMI TCP Connection(7)-192.168.0.7] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-11-24 13:03:41.871  INFO 4044 --- [RMI TCP Connection(7)-192.168.0.7] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-11-24 13:03:41.875  INFO 4044 --- [RMI TCP Connection(7)-192.168.0.7] o.s.web.servlet.DispatcherServlet        : Completed initialization in 4 ms
+2022-11-24 13:03:41.909  INFO 4044 --- [RMI TCP Connection(8)-192.168.0.7] o.s.a.r.c.CachingConnectionFactory       : Created new connection: rabbitConnectionFactory#7367c4f0:0/SimpleConnection@59d90eb0 [delegate=amqp://guest@127.0.0.1:5672/, localPort= 1170]
+2022-11-24 13:04:24.037  INFO 4044 --- [http-nio-auto-1-exec-5] o.springdoc.api.AbstractOpenApiResource  : Init duration for springdoc-openapi is: 138 ms
+2022-11-24 13:08:39.808  INFO 4044 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2022-11-24 13:13:39.809  INFO 4044 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2022-11-24 13:18:39.810  INFO 4044 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2022-11-24 13:23:39.811  INFO 4044 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2022-11-24 13:28:39.812  INFO 4044 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2022-11-24 13:33:39.813  INFO 4044 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2022-11-24 13:38:39.814  INFO 4044 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2022-11-24 13:43:39.815  INFO 4044 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2022-11-24 13:48:39.816  INFO 4044 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2022-11-24 13:53:39.818  INFO 4044 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2022-11-24 13:58:39.819  INFO 4044 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2022-11-24 14:03:39.821  INFO 4044 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2022-11-24 14:08:39.822  INFO 4044 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2022-11-24 14:13:39.823  INFO 4044 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2022-11-24 14:18:39.825  INFO 4044 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2022-11-24 14:23:39.826  INFO 4044 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2022-11-24 14:28:39.827  INFO 4044 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2022-11-24 14:33:39.828  INFO 4044 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2022-11-24 14:38:39.830  INFO 4044 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2022-11-24 14:43:39.831  INFO 4044 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2022-11-24 14:48:39.832  INFO 4044 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2022-11-24 14:53:39.833  INFO 4044 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2022-11-24 14:58:39.834  INFO 4044 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2022-11-24 15:03:39.835  INFO 4044 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2022-11-24 15:08:39.836  INFO 4044 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2022-11-24 15:13:39.837  INFO 4044 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2022-11-24 15:18:39.838  INFO 4044 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2022-11-24 15:23:39.840  INFO 4044 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2022-11-24 15:28:39.842  INFO 4044 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2022-11-24 15:33:39.844  INFO 4044 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2022-11-24 15:38:39.848  INFO 4044 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2022-11-24 15:43:39.850  INFO 4044 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2022-11-24 15:48:39.850  INFO 4044 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2022-11-24 15:53:39.855  INFO 4044 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2022-11-24 15:58:39.857  INFO 4044 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2022-11-24 16:03:39.858  INFO 4044 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2022-11-24 16:08:39.859  INFO 4044 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2022-11-24 16:13:39.860  INFO 4044 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2022-11-24 16:18:39.862  INFO 4044 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2022-11-24 16:23:39.862  INFO 4044 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2022-11-24 16:28:39.864  INFO 4044 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2022-11-24 16:33:39.865  INFO 4044 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2022-11-24 16:38:39.867  INFO 4044 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2022-11-24 16:43:39.868  INFO 4044 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2022-11-24 16:48:39.870  INFO 4044 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2022-11-24 16:53:39.871  INFO 4044 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2022-11-24 16:58:39.872  INFO 4044 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2022-11-24 17:03:39.874  INFO 4044 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2022-11-24 17:08:39.874  INFO 4044 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2022-11-24 17:13:39.875  INFO 4044 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2022-11-24 17:18:39.877  INFO 4044 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2022-11-24 17:23:39.878  INFO 4044 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2022-11-24 17:28:39.879  INFO 4044 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2022-11-24 17:33:39.880  INFO 4044 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2022-11-24 17:38:39.882  INFO 4044 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2022-11-24 17:43:39.883  INFO 4044 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2022-11-24 17:48:39.884  INFO 4044 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2022-11-24 17:53:39.885  INFO 4044 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2022-11-24 17:58:39.886  INFO 4044 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2022-11-24 18:03:39.887  INFO 4044 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2022-11-24 18:08:39.888  INFO 4044 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2022-11-24 18:13:39.890  INFO 4044 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2022-11-24 18:18:39.891  INFO 4044 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2022-11-24 18:23:39.891  INFO 4044 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2022-11-24 18:28:39.892  INFO 4044 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2022-11-24 18:33:39.894  INFO 4044 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2022-11-24 18:38:38.234  INFO 4044 --- [SpringApplicationShutdownHook] o.s.c.n.e.s.EurekaServiceRegistry        : Unregistering application MSAVALIADORCREDITO with eureka with status DOWN
+2022-11-24 18:38:38.234  INFO 4044 --- [SpringApplicationShutdownHook] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1669325918234, current=DOWN, previous=UP]
+2022-11-24 18:38:38.236  INFO 4044 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_MSAVALIADORCREDITO/msavaliadorcredito:a24cd8b4509b7f30f7448bfb9fa009e0: registering service...
+2022-11-24 18:38:38.251  INFO 4044 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_MSAVALIADORCREDITO/msavaliadorcredito:a24cd8b4509b7f30f7448bfb9fa009e0 - registration status: 204
+2022-11-24 18:38:38.594  INFO 4044 --- [SpringApplicationShutdownHook] com.netflix.discovery.DiscoveryClient    : Shutting down DiscoveryClient ...
+2022-11-24 18:38:39.895  INFO 4044 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2022-11-24 18:38:41.599  INFO 4044 --- [SpringApplicationShutdownHook] com.netflix.discovery.DiscoveryClient    : Unregistering ...
+2022-11-24 18:38:41.604  INFO 4044 --- [SpringApplicationShutdownHook] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_MSAVALIADORCREDITO/msavaliadorcredito:a24cd8b4509b7f30f7448bfb9fa009e0 - deregister  status: 200
+2022-11-24 18:38:41.609  INFO 4044 --- [SpringApplicationShutdownHook] com.netflix.discovery.DiscoveryClient    : Completed shut down of DiscoveryClient
